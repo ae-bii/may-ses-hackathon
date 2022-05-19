@@ -6,7 +6,7 @@ import Home from './components/home/Home';
 import Input from './components/input/Input';
 import Budgeting from './components/budgeting/Budgeting';
 import Spending from './components/spending/Spending';
-import Investing from './components/investing/Investing';
+import Investing from './components/Investing/Investing';
 
 function App() {
   return (
