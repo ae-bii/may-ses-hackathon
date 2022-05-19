@@ -1,11 +1,12 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Input from './components/Input';
-import Header from './components/Header';
 import './App.css';
-import Home from './components/Home';
-import Budgeting from './components/Budgeting';
-import Spending from './components/Spending';
-import Investing from './components/Investing/Investing';
+
+import Header from './components/header/Header';
+import Home from './components/home/Home';
+import Input from './components/input/Input';
+import Budgeting from './components/budgeting/Budgeting';
+import Spending from './components/spending/Spending';
+import Investing from './components/investing/Investing';
 
 function App() {
   return (
