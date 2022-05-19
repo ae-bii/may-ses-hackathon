@@ -1,6 +1,19 @@
 .card {
-	border: 1px;
-	border-color: black;
+	/* border: 1px black solid; */
 	text-align: left;
 	padding: 20px;
+	padding-bottom: 5px;
+	margin: 20px;
+	width: 300px;
+
+	background-color: #00487950;
+}
+
+.card-title {
+	padding-top: 20px;
+	font-size: 150%;
+}
+
+.star {
+	align-self: right;
 }
