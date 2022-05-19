@@ -1,4 +1,7 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Input from './components/Input';
+import Header from './components/Header';
+import Signup from './components/Signup';aster
 import './App.css';
 
 import Header from './components/header/Header';
@@ -16,6 +19,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}></Route>
           <Route path='/input' element={<Input/>}></Route>
+          <Route path='/signup' element={<Signup/>}></Route>
           <Route path='/budgeting' element={<Budgeting/>}></Route>
           <Route path='/spending' element={<Spending/>}></Route>
           <Route path='/investing' element={<Investing/>}></Route>
