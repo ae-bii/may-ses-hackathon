@@ -1,9 +1,6 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Input from './components/Input';
-import Header from './components/Header';
-import Signup from './components/Signup';aster
 import './App.css';
-
+import Signup from './components/Signup';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Input from './components/input/Input';
