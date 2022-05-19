@@ -1,6 +1,28 @@
-.allCards {
+.investing-container {
 	display: inline-flex;
-	padding: 20px;
+	width: 90%;
+	border: 1px red solid;
+	margin-top: 150px;
 }
 
-/* fixed bug */
+.filter-container {
+	width: 600px;
+	padding-top: 20px;
+	border: 1px black solid;
+}
+
+.card-container {
+	text-align: left;
+	margin-left: 30px;
+}
+
+.investing-title {
+	
+	margin-left: 20px;
+	font-size: 400%;
+}
+
+.all-card-rows {
+	display: flex;
+	flex-wrap: wrap;
+}

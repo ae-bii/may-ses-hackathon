@@ -1,13 +1,14 @@
 import React from 'react'
 import './SuggestionCard.css'
 
-const SuggestionCard = () => {
+const SuggestionCard = (props) => {
 	return (
 		<div className='card'>
 			<spacer/>
-			<h1>Suggestion Card</h1>
-			<h3>Interest Rate</h3>
-			<h3>Risk Rate</h3>
+			<img className='star' src='empty_star.png'/>
+			<p className='card-title'>{props.name}</p>
+			<h6>Interest Rate</h6>
+			<h6>Risk Rate</h6>
 		</div>
 	)
 }
