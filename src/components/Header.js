@@ -10,9 +10,8 @@ const Header = () => {
                 <Link to="/">Home</Link>
                 <Link to="/input">Test Input</Link>
                 <Link to="/investing">Investing</Link>
-                
-                {/* <Link to="/budgeting">Budgeting</Link>
-                <Link to="/spending">Spending</Link> */}
+                <Link to="/budgeting">Budgeting</Link>
+                <Link to="/spending">Spending</Link>
                 
             </div>
         </div>

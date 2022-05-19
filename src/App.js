@@ -12,6 +12,8 @@ function App() {
         <Routes>
           <Route path='/input' element={<Input/>}></Route>
           <Route path='/investing' element={<Investing/>}></Route>
+          {/* <Route path='/spending' element={<Spending/>}></Route>
+          <Route path='/budgeting' element={<Budgeting/>}></Route> */}
         </Routes>
       </Router>
     </div>
