@@ -2,7 +2,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Input from './components/Input';
 import Header from './components/Header';
 import './App.css';
-import Investing from './components/Investing';
+import Investing from './components/Investing/Investing';
 
 function App() {
   return (
@@ -12,8 +12,6 @@ function App() {
         <Routes>
           <Route path='/input' element={<Input/>}></Route>
           <Route path='/investing' element={<Investing/>}></Route>
-          {/* <Route path='/spending' element={<Spending/>}></Route>
-          <Route path='/budgeting' element={<Budgeting/>}></Route> */}
         </Routes>
       </Router>
     </div>
