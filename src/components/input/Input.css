@@ -1,5 +1,5 @@
 .input {
-    background-color: #252d4a;
+    background-color: #475175;
     width: 450px;
     min-height: 250px;
     height: min-content;
@@ -64,13 +64,13 @@
     width: 100%;
     font-size: 40px;
     color: #ffffff;
-    background-color: #252d4a;
+    background-color: #475175;
     border-radius: 15px;
     display: flex;
     padding: 5px;
     justify-content: center;
     align-items: center;
-    border: 5px solid #004977;
+    border: 5px solid #475175;
     cursor: pointer;
   }
   
@@ -90,12 +90,12 @@
     width: 100%;
     font-size: 32px;
     color: #ffffff;
-    background-color: #252d4a;
+    background-color: #475175;
     border-radius: 15px;
     padding: 5px;
     justify-content: flex-start;
     align-items: center;
-    border: 5px solid #004977;
+    border: 5px solid #475175;
     cursor: pointer;
   }
   
