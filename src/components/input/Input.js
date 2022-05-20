@@ -14,6 +14,8 @@ const Input = () => {
 				{ answerText: 'Something else'},
 				{ answerText: 'One more thing'},
 			],
+		},
+		{
 			questionText: 'What is your top spending category?',
 			answerOptions: [
 				{ answerText: 'Groceries'},
@@ -21,12 +23,16 @@ const Input = () => {
 				{ answerText: 'Something else'},
 				{ answerText: 'One more thing'},
 			],
+		},
+		{
 			questionText: 'What is your location type?',
 			answerOptions: [
 				{ answerText: 'Urban'},
 				{ answerText: 'Suburban'},
 				{ answerText: 'Rural'},
 			],
+		},
+		{
 			questionText: 'What is your top spending category?',
 			answerOptions: [
 				{ answerText: 'Groceries'},
@@ -34,6 +40,8 @@ const Input = () => {
 				{ answerText: 'Something else'},
 				{ answerText: 'One more thing'},
 			],
+		},
+		{
 			questionText: 'What type of investment length are you looking for?',
 			answerOptions: [
 				{ answerText: 'Long-term'},
@@ -52,6 +60,7 @@ const Input = () => {
 	const [showEnd, setShowEnd] = useState(false)
 
 	const handleAnswerOptionClick = (isCorrect) => {
+		
 		const nextQuestion = currentQuestion + 1
 		if (nextQuestion < questions.length) {
 			setCurrentQuestion(nextQuestion)
