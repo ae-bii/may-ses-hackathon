@@ -5,6 +5,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div className="header">
+            <img src={require('./logo.png')} />
             <h1 className="logo">Financial Lingo</h1>
             <div className="links">
                 {/* <Link to="/input">Test Input</Link>
