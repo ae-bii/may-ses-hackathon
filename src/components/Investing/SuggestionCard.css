@@ -1,17 +1,29 @@
 .card {
-	/* border: 1px black solid; */
+	border: none;
 	text-align: left;
 	padding: 20px;
-	padding-bottom: 5px;
-	margin: 20px;
+	margin: 15px;
 	width: 300px;
+	height: 200px;
 
 	background-color: #00487950;
+	font-size: 80%;
+}
+
+.info-button-container {
+	align-items: right;
+}
+
+.info-button {
+	font-size: 150%;
+	text-align: right;
+	color: black;
 }
 
 .card-title {
-	padding-top: 20px;
+	padding-top: 30px;
 	font-size: 150%;
+	height: 125px;
 }
 
 .star {
