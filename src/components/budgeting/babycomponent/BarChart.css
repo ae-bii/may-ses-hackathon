@@ -1,9 +1,10 @@
-.container-fluid1 {
+.container-fluid {
 	text-align: bottom;
 	padding-top: 20px;
 	padding-bottom: 5px;
 	margin: 20px;
 	width: 30px;
     border-color: red;
+    position: center;
 }
 
