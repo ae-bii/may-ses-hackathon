@@ -2,6 +2,8 @@
 	display: inline-flex;
 	width: 90%;
 	margin-top: 150px;
+	align-self: center;
+	border: 1px red solid;
 }
 
 .filter-container {
@@ -17,7 +19,7 @@
 
 .investing-title {
 	margin-left: 20px;
-	font-size: 400%;
+	font-size: 60px;
 }
 
 .all-card-rows {
