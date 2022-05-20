@@ -1,14 +1,14 @@
 .investing-container {
   display: inline-flex;
   width: 90%;
-  margin-top: 150px;
+  margin-top: 100px;
   align-self: center;
-  border: 1px red solid;
 }
 
 .filter-container {
   width: 650px;
   padding-top: 20px;
+	margin-top: 60px;
   border: 1px black solid;
 	height: 600px;
 }
