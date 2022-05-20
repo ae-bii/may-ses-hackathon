@@ -1,0 +1,27 @@
+.blankheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    background-color: #004977;
+    color: white;
+  }
+  
+  .logo {
+    font-family: 'Optimist', sans-serif;
+  }
+  
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Optimist', sans-serif;
+  }
+  
+  a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+  

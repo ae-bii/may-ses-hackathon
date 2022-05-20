@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'; 
+import { Link, useNavigate } from 'react-router-dom';
+import BlankHeader from './BlankHeader' 
 import './Input.css'
 
 const Input = () => {
@@ -69,7 +70,9 @@ const Input = () => {
 		}
 	}
 	return (
-		<div className='input'>
+		<div>
+			<BlankHeader/>
+			<div className='input'>
 			{showEnd ? (
 				<div className='score-section'>
 					<div className='question-text'>
@@ -92,6 +95,7 @@ const Input = () => {
 					</div>
 				</>
 			)}
+		</div>
 		</div>
 	)
 }
