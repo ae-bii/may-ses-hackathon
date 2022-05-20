@@ -6,5 +6,8 @@
 	width: 30px;
     border-color: red;
     position: center;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
