@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Link } from 'react-router-dom'
 import axios from 'axios'
+import Input from './input/Input'
 
 class Signup extends Component {
     constructor(){
@@ -68,12 +69,12 @@ class Signup extends Component {
                 <div className='container'>
                     <div className='form-div'>
                         <form onSubmit={this.onSubmit}>
-                            <input type='text'
+                            {/* <input type='text'
                             placeholder='Full Name'
                             onChange={this.changeFullName}
                             value={this.state.fullName}
                             className='form-control form-group'
-                            />
+                            /> */}
 
                             <input type='text'
                             placeholder='Username'
@@ -82,12 +83,12 @@ class Signup extends Component {
                             className='form-control form-group'
                             />
 
-                            <input type='text'
+                            {/* <input type='text'
                             placeholder='E-mail'
                             onChange={this.changeEmail}
                             value={this.state.email}
                             className='form-control form-group'
-                            />
+                            /> */}
 
                             <input type='password'
                             placeholder='Password'
