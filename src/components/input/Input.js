@@ -12,8 +12,8 @@ const Input = () => {
 			answerOptions: [
 				{ answerText: 'Under $20k'},
 				{ answerText: '$20k-$40k'},
-				{ answerText: 'Something else'},
-				{ answerText: 'One more thing'},
+				{ answerText: '$40k-$80k'},
+				{ answerText: 'Above $80k'},
 			],
 		},
 		{
