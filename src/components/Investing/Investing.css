@@ -30,8 +30,9 @@
 .horizontal-slider {
 	width: 100%;
 	max-width: 500px;
-	height: 100vh;
+	height: 2vh;
 	margin: auto;
+	padding-top: 2px;
   }
   .example-thumb {
 	cursor: pointer;
@@ -63,4 +64,9 @@
 	outline: none;
 	height: 10px;
 	line-height: 38px;
+  }
+
+  .slider {
+	  padding-left: 10px;
+	  padding-right: 10px;
   }
