@@ -1,18 +1,52 @@
 import React, { useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'; 
 import './Input.css'
 
 const Input = () => {
+
+	// add progress bar above the box // try to do multiple select
   const questions = [
 		{
-			questionText: 'This is a question that should wrap around to the bottom',
+			questionText: 'What is your income bracket?',
 			answerOptions: [
 				{ answerText: 'Something'},
 				{ answerText: 'Another thing'},
 				{ answerText: 'Something else'},
 				{ answerText: 'One more thing'},
 			],
+			questionText: 'What is your top spending category?',
+			answerOptions: [
+				{ answerText: 'Groceries'},
+				{ answerText: 'Online Shopping'},
+				{ answerText: 'Something else'},
+				{ answerText: 'One more thing'},
+			],
+			questionText: 'What is your location type?',
+			answerOptions: [
+				{ answerText: 'Urban'},
+				{ answerText: 'Suburban'},
+				{ answerText: 'Rural'},
+			],
+			questionText: 'What is your top spending category?',
+			answerOptions: [
+				{ answerText: 'Groceries'},
+				{ answerText: 'Online Shopping'},
+				{ answerText: 'Something else'},
+				{ answerText: 'One more thing'},
+			],
+			questionText: 'What type of investment length are you looking for?',
+			answerOptions: [
+				{ answerText: 'Long-term'},
+				{ answerText: 'Short-term'},
+			],
 		}
 	]
+
+	let navigate = useNavigate();
+
+	const onSubmit = () => {
+		navigate('/budgeting', {replace: true})
+	}
 
 	const [currentQuestion, setCurrentQuestion] = useState(0)
 	const [showEnd, setShowEnd] = useState(false)
@@ -30,6 +64,7 @@ const Input = () => {
 			{showEnd ? (
 				<div className='score-section'>
 					Thank you for completing the questionaire!
+					<button className='continue' onClick={onSubmit}>Continue</button>
 				</div>
 			) : (
 				<>
@@ -41,7 +76,7 @@ const Input = () => {
 					</div>
 					<div className='answer-section'>
 						{questions[currentQuestion].answerOptions.map((answerOption) => (
-							<button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
+							<button className ='answer' onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
 						))}
 					</div>
 				</>
