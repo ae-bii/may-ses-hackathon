@@ -35,7 +35,7 @@ function Barchart() {
             options={{
               title: {
                 text: "June 2022",
-                style: { fontSize: 30, textalign: 'center' },
+                style: { fontSize: 30, textalign: ['center'] },
                 
               },
 

@@ -16,14 +16,17 @@ const Budgeting = () => {
 		<div>
 			<Header/>
 			<div>
-				<div className='budgetCards'>
-					<Charts/>
-
-					<BudgetingCard1 />
-					<BudgetingCard2 />
-					<BudgetingCard3 />
-					<BudgetingCard4 />
+				<div>
+				<h1 className='budgeting-title'>Budgeting</h1>
 				</div>
+					<div className='budgetCards'>
+						<Charts/>
+
+						<BudgetingCard1 />
+						<BudgetingCard2 />
+						<BudgetingCard3 />
+						<BudgetingCard4 />
+					</div>
 			</div>
 		</div>
 	)
