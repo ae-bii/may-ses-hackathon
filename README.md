@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Financial Lingo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Room 26's submission for the May 2022 Capital One Software Engineering Summit! Take a look here: https://may-ses-hackathon.aebii.repl.co/
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## Our Pitch
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Problem
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+We don’t know what to invest in or how to spend money wisely, especially as college students.
 
-### `npm test`
+### Solution
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We created an intuitive beginner-friendly website that recommends to customers ways they can spend, budget, and invest their money.
 
-### `npm run build`
+### Benefits
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This website improves financial literacy and forming of good lifelong financial habits, personalized for each customer based on their current knowledge, financial resources, and their demographics.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Our website focuses
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Spending
 
-### `npm run eject`
+We want to encourage customers to build a strong credit score through visual balance bars and ‘gamefied’ goals.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Budgeting
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+We want customers to set goals for their budget while being able to compare their spending and goals to similar customers.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Investing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+We want investing to be as easy as ordering food on UberEats by having information at customers’ fingertips.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## If we had more time, we would add...
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Colors indicating overspending in the budgeting tab
+- Flippable cards with further information in the investing tab
+- Sort-by option for the flippable cards
+- Pull data from Capital One API
+- Algorithm for calculating recommended budgets using customer information
+- Data sharing for comparing customer budgets and spending
+- Media queries to CSS for mobile compatibility
 
-### Code Splitting
+## What we learned and applied:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Figma for our mockup
+- React.js
+- Mongo DB API for login system
+- Git workflow
+- Apexcharts for data visualizations
 
-### Analyzing the Bundle Size
+## What we took away!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- There's a lot to learn from each other, especially as even though we have similar foundations in programming, we all had different specializations and experiences from our personal projects and academic interests
+- That we are capable of making a working and visually sound website in just 36 hours!
+- How to work with a Git workflow but more specifically, how to divide work based on strengths, how to label code clearly and explain changes to group members, and how to check each others' work in how it fit into our parts and the website as a whole
+- A really good hackathon experience because we all got along so well(!) and meshed our strengths nicely to make our final project
