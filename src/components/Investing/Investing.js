@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactSlider from 'react-slider'
 import SuggestionCard from './SuggestionCard'
 import './Investing.css'
 
@@ -7,7 +8,13 @@ const Investing = () => {
 		<div className='investing-container'>
 
 			<div className='filter-container'>
-				<h4>Filter</h4>
+				<h5>Filters</h5>
+
+				<ReactSlider
+					className="horizontal-slider"
+					thumbClassName="example-thumb"
+					trackClassName="example-track"
+					renderTrack={(props, state) => <div {...props} />}/>
 				
 			</div>
 
