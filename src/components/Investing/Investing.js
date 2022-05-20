@@ -14,27 +14,46 @@ const Investing = () => {
 				<div className='filter-container'>
 				<h2>Filters</h2>
 				<div className="slider">
+
+					
 					<Slider
+						style={{paddingBottom:'0px'}}
 						className="horizontal-slider"
 						thumbClassName="example-thumb"
 						trackClassName="example-track"
 						renderTrack={(props, state) => <div {...props} />}/>
-
+					<div className='slider-values'>
+						<p className='left-value'>0.1%</p>
+						<p className='right-value'>3%</p>
+					</div>
 					<p>Interest Rate</p>
+					
+					<br/>
+					<br/>
 
 					<Slider
 						className="horizontal-slider"
 						thumbClassName="example-thumb"
 						trackClassName="example-track"
 						renderTrack={(props, state) => <div {...props} />}/>
-
+					<div className='slider-values'>
+						<p className='left-value'>0.1%</p>
+						<p className='right-value'>3%</p>
+					</div>
 					<p>Risk Rate</p>
 
+					<br/>
+					<br/>
+
 					<Slider
 						className="horizontal-slider"
 						thumbClassName="example-thumb"
 						trackClassName="example-track"
 						renderTrack={(props, state) => <div {...props} />}/>
+					<div className='slider-values'>
+						<p className='left-value'>0.1%</p>
+						<p className='right-value'>3%</p>
+					</div>
 					<p>Liquidity</p>
 				</div>	
 					
