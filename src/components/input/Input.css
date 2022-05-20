@@ -1,7 +1,7 @@
 .input {
     background-color: #252d4a;
-    width: 1300px;
-    min-height: 500px;
+    width: 450px;
+    min-height: 250px;
     height: min-content;
     border-radius: 15px;
     padding: 20px;
@@ -17,7 +17,7 @@
   
   .score-section {
     display: flex;
-    font-size: 70px;
+    font-size: 12px;
     align-items: center;
     color: #ffffff;
   }
@@ -37,7 +37,7 @@
   }
   
   .question-text {
-    font-size: 70px;
+    font-size: 32px;
     color: #ffffff;
     margin-bottom: 12px;
   }
@@ -59,10 +59,36 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  
-  button {
+
+  .continue {
     width: 100%;
     font-size: 40px;
+    color: #ffffff;
+    background-color: #252d4a;
+    border-radius: 15px;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #004977;
+    cursor: pointer;
+  }
+  
+  .continue:hover {
+    background-color: #555e7d;
+  }
+  
+  .continue:focus {
+    outline: none;
+  }
+  
+  .continue svg {
+    margin-right: 5px;
+  }
+  
+  .answer {
+    width: 100%;
+    font-size: 12px;
     color: #ffffff;
     background-color: #252d4a;
     border-radius: 15px;
@@ -74,14 +100,14 @@
     cursor: pointer;
   }
   
-  button:hover {
+  .answer:hover {
     background-color: #555e7d;
   }
   
-  button:focus {
+  .answer:focus {
     outline: none;
   }
   
-  button svg {
+  .answer svg {
     margin-right: 5px;
   }
