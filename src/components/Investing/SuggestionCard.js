@@ -12,6 +12,7 @@ const SuggestionCard = (props) => {
 			<div className='rate'>
 				<p>{props.ir} interest rate</p>
 				<p>{props.rr} risk rate</p>
+				<p>Average return {props.time} days</p>
 			</div>
 			
 		</div>
