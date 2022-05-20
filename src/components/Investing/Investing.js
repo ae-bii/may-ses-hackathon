@@ -12,13 +12,31 @@ const Investing = () => {
 			<div className='investing-container'>
 
 				<div className='filter-container'>
-					<h5>Filters</h5>
+				<h2>Filters</h2>
+				<div className="slider">
+					<Slider
+						className="horizontal-slider"
+						thumbClassName="example-thumb"
+						trackClassName="example-track"
+						renderTrack={(props, state) => <div {...props} />}/>
+
+					<p>Interest Rate</p>
 
 					<Slider
 						className="horizontal-slider"
 						thumbClassName="example-thumb"
 						trackClassName="example-track"
 						renderTrack={(props, state) => <div {...props} />}/>
+
+					<p>Risk Rate</p>
+
+					<Slider
+						className="horizontal-slider"
+						thumbClassName="example-thumb"
+						trackClassName="example-track"
+						renderTrack={(props, state) => <div {...props} />}/>
+					<p>Liquidity</p>
+				</div>	
 					
 				</div>
 
