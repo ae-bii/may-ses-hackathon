@@ -1,8 +1,15 @@
 .budgetCards {
 	display: inline-flex;
 	padding: 20px;
+	padding-left: 0px;
+	margin-left: 0px;
 }
 
 .budgeting-title {
-	padding-left: none;
+	text-align: center;
+	padding-right: 250px;
+}
+
+.chart {
+	margin-left: 100px;
 }

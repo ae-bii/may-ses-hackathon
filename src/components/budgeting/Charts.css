@@ -4,9 +4,9 @@
 	padding-bottom: 5px;
 	margin: 20px;
 	width: 30px;
-    background-color: blueviolet;
-    overflow: hidden;
-    display: flex
-    
+	background-color: blueviolet;
+	overflow: hidden;
+	display: flex;
+  margin-left: 100px;
 
 }
