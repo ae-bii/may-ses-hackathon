@@ -8,9 +8,12 @@ const SuggestionCard = (props) => {
 			<div className='info-button-container'>
 				<button className='info-button'>+</button>
 			</div>
-			<h4 className='card-title'>{props.name}</h4>
-			<h6>{props.ir} interest rate</h6>
-			<h6>{props.rr} risk rate</h6>
+			<p className='suggestion'>{props.name}</p>
+			<div className='rate'>
+				<p>{props.ir} interest rate</p>
+				<p>{props.rr} risk rate</p>
+			</div>
+			
 		</div>
 	)
 }

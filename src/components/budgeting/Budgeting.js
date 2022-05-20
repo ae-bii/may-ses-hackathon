@@ -7,6 +7,9 @@ import BarChart from './babycomponent/BarChart.js'
 import './Budgeting.css'
 
 
+import Header from '../header/Header'
+
+
 const Budgeting = () => {
 	return (
 		<div>
@@ -20,6 +23,10 @@ const Budgeting = () => {
 			</div>
 		</div>
 	)   
+			<Header/>
+			Budgeting
+		</div>
+	)
 }
 
 const Charts  = () => {
