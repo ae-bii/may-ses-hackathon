@@ -8,14 +8,14 @@
   }
   
   .logo {
-    font-family: 'Belleza', sans-serif;
+    font-family: 'Optimist', sans-serif;
   }
   
   .links {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Optimist', sans-serif;
   }
   
   a {

@@ -1,6 +1,8 @@
+@font-face { font-family: Optimist; src: url('https://www.capitalone.com/assets/enterprise/fonts/Optimist_W_Lt.woff2'); } 
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Optimist", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -8,10 +10,10 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: "Optimist", source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
 * {
-  font-family: "Verdana", cursive, sans-serif;
+  font-family: "Optimist", cursive, sans-serif;
 }
