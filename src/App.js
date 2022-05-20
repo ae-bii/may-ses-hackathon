@@ -2,10 +2,10 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import './App.css';
 import Login from './components/login/Login';
 import Input from './components/input/Input'
-import Header from './components/header/Header';
+/* import Header from './components/header/Header'; */
 import Budgeting from './components/budgeting/Budgeting';
 import Spending from './components/spending/Spending';
-import Investing from './components/Investing/Investing';
+import Investing from './components/investing/Investing';
 
 function App() {
   return (

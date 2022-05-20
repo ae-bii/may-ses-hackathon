@@ -2,7 +2,7 @@ import React from 'react'
 import ReactSlider from 'react-slider'
 import SuggestionCard from './SuggestionCard'
 import './Investing.css'
-import Header from '../header/Header'
+/* import Header from '../header/Header' */
 
 const Investing = () => {
 	return (
@@ -41,7 +41,6 @@ const Investing = () => {
 				</div>
 
 			</div>
-		</div>
 	)
 }
 
