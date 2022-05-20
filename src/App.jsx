@@ -67,7 +67,8 @@ class App extends Component {
                             classname='form-control form-group'
                             />
 
-                            <input type='submit' className='btn btn-danger btn-block' value='Submit'/>
+                            {/* <input type='submit' className='btn btn-danger btn-block' value='Submit'/> */}
+                            <Link to="/input">Submit</Link>
                         </form>
                     </div>
                 </div>

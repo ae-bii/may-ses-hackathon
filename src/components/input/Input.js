@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import './Input.css'
 
 const Input = () => {
@@ -6,33 +6,28 @@ const Input = () => {
 		{
 			questionText: 'This is a question that should wrap around to the bottom',
 			answerOptions: [
-				{ answerText: 'Something', isCorrect: false },
-				{ answerText: 'Another thing', isCorrect: false },
-				{ answerText: 'Something else', isCorrect: true },
-				{ answerText: 'One more thing', isCorrect: false },
+				{ answerText: 'Something'},
+				{ answerText: 'Another thing'},
+				{ answerText: 'Something else'},
+				{ answerText: 'One more thing'},
 			],
 		}
-	];
+	]
 
-	const [currentQuestion, setCurrentQuestion] = useState(0);
-	const [showScore, setShowScore] = useState(false);
-	const [score, setScore] = useState(0);
+	const [currentQuestion, setCurrentQuestion] = useState(0)
+	const [showEnd, setShowEnd] = useState(false)
 
 	const handleAnswerOptionClick = (isCorrect) => {
-		if (isCorrect) {
-			setScore(score + 1);
-		}
-
-		const nextQuestion = currentQuestion + 1;
+		const nextQuestion = currentQuestion + 1
 		if (nextQuestion < questions.length) {
-			setCurrentQuestion(nextQuestion);
+			setCurrentQuestion(nextQuestion)
 		} else {
-			setShowScore(true);
+			setShowEnd(true);
 		}
-	};
+	}
 	return (
 		<div className='input'>
-			{showScore ? (
+			{showEnd ? (
 				<div className='score-section'>
 					Thank you for completing the questionaire!
 				</div>
@@ -52,7 +47,7 @@ const Input = () => {
 				</>
 			)}
 		</div>
-	);
+	)
 }
 
 export default Input
