@@ -15,7 +15,7 @@ const Spending = () => {
         <div className='fico-score'>
           <h1>Spending</h1>
           <br/>
-          <h3 className='fico-title'>Current FICO Score: 550</h3>
+          <h3 className='fico-title'>Current FICO Score: 650</h3>
           <div className='fico-bar'>
             <div class="child progress"></div>
             <div class="child shrinker timelapse"></div>
