@@ -1,31 +1,49 @@
 .card {
 	border: none;
 	text-align: left;
-	padding: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+	padding: 5px;
 	margin: 15px;
 	width: 300px;
 	height: 200px;
+  padding-left: 10px;
 
 	background-color: #00487950;
 	font-size: 80%;
 }
 
 .info-button-container {
-	align-items: right;
+	text-align: right;
 }
 
 .info-button {
 	font-size: 150%;
+	text-align: center;
+	color: black;
+	background-color: transparent;
+	border: transparent;
+}
+
+.info-button :hover{
+	font-size: 150%;
 	text-align: right;
 	color: black;
+	background-color: black;
+	border: transparent;
 }
 
-.card-title {
-	padding-top: 30px;
-	font-size: 150%;
-	height: 125px;
+.suggestion {
+	padding-top: 20px;
+	font-size: 20px;
+	height: 34px;
+	padding-right: 20px;
 }
 
-.star {
-	align-self: right;
+.rate {
+	font-size: 15px;
+	height: 30px;
+	padding-right: 20px;
+  line-height: 10px;
+  padding-top: 2px;
 }

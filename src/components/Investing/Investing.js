@@ -1,17 +1,23 @@
 import React from 'react'
+import ReactSlider from 'react-slider'
 import SuggestionCard from './SuggestionCard'
 import './Investing.css'
 import Header from '../header/Header'
 
 const Investing = () => {
 	return (
-		<div>
-			<Header/>
-			<div className='investing-container'>
-				<div className='filter-container'>
-					<h4>Filter</h4>
-					
-				</div>
+		<div className='investing-container'>
+
+			<div className='filter-container'>
+				<h5>Filters</h5>
+
+				<ReactSlider
+					className="horizontal-slider"
+					thumbClassName="example-thumb"
+					trackClassName="example-track"
+					renderTrack={(props, state) => <div {...props} />}/>
+				
+			</div>
 
 				<div className='card-container'>
 					<h1 className='investing-title'>Investing</h1>
