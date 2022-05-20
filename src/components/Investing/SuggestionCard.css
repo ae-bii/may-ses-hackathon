@@ -2,6 +2,8 @@
 	border: none;
 	text-align: left;
 	padding: 20px;
+	padding-top: 10px;
+	padding-right: 10px;
 	margin: 15px;
 	width: 300px;
 	height: 200px;
@@ -11,21 +13,20 @@
 }
 
 .info-button-container {
-	align-items: right;
+	text-align: right;
 }
 
 .info-button {
 	font-size: 150%;
 	text-align: right;
 	color: black;
+	background-color: transparent;
+	border: transparent;
 }
 
 .card-title {
 	padding-top: 30px;
 	font-size: 150%;
 	height: 125px;
-}
-
-.star {
-	align-self: right;
+	padding-right: 20px;
 }
