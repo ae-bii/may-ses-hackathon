@@ -1,0 +1,20 @@
+.spend-card {
+	border: none;
+	text-align: left;
+	margin: 30px;
+	width: 350px;
+	height: 200px;
+
+	background-color: #00487950;
+	font-size: 80%;
+}
+
+
+.card-title {
+	padding-top: 20px;
+	font-size: 150%;
+}
+
+.spending-title{
+    text-align: center;
+}

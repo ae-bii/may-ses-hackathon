@@ -1,0 +1,22 @@
+.fico-card {
+	border: none;
+	text-align: center;
+	padding: 20px;
+	margin-left: 15px;
+	margin-top: 20px;
+	width: 300px;
+	height: 200px;
+
+	background-color: #00487950;
+	font-size: 80%;
+}
+
+
+.card-title {
+	padding-top: 20px;
+	font-size: 150%;
+}
+
+.spending-title{
+    text-align: center;
+}
