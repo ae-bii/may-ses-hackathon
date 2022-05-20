@@ -1,12 +1,11 @@
 .investing-container {
 	display: inline-flex;
 	width: 90%;
-	border: 1px red solid;
 	margin-top: 150px;
 }
 
 .filter-container {
-	width: 600px;
+	width: 650px;
 	padding-top: 20px;
 	border: 1px black solid;
 }
@@ -17,7 +16,6 @@
 }
 
 .investing-title {
-	
 	margin-left: 20px;
 	font-size: 400%;
 }

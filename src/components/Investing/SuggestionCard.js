@@ -5,10 +5,12 @@ const SuggestionCard = (props) => {
 	return (
 		<div className='card'>
 			<spacer/>
-			<img className='star' src='empty_star.png'/>
-			<p className='card-title'>{props.name}</p>
-			<h6>Interest Rate</h6>
-			<h6>Risk Rate</h6>
+			<div className='info-button-container'>
+				<button className='info-button'>+</button>
+			</div>
+			<h4 className='card-title'>{props.name}</h4>
+			<h6>{props.ir} interest rate</h6>
+			<h6>{props.rr} risk rate</h6>
 		</div>
 	)
 }
