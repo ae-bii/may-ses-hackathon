@@ -2,13 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 100px;
+  height: 120px;
   background-color: #004977;
   color: white;
 }
 
 .logo {
   font-family: 'Optimist', sans-serif;
+  margin-right: 500px;
 }
 
 .links {

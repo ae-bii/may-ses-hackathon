@@ -16,9 +16,6 @@ const Budgeting = () => {
 		<div>
 			<Header/>
 			<div>
-				<div className='leadertitle'>
-					<h1>Leaderboards</h1>
-				</div>
 				<div>
 				<h1 className='budgeting-title'>Budgeting</h1>
 				</div>
