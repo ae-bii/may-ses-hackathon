@@ -13,7 +13,7 @@ const Spending = () => {
         
 
         <div className='fico-score'>
-          <h1>Spending</h1>
+        <h1 className='spending-title'>Spending</h1>
           <br/>
           <h3 className='fico-title'>Current FICO Score: 650</h3>
           <div className='fico-bar'>
@@ -25,17 +25,14 @@ const Spending = () => {
         <br/>
         
         <div className='all-card-rows'>
-          <SpendingCard name='Current fico Score: 550'/>
-          <SpendingCard name='Current fico Score: 550'/>
-          <SpendingCard name='Current fico Score: 550'/>
+          <SpendingCard tip='Deposits versus Spendings of Account x5810'/>
+          <SpendingCard tip='Deposits versus Spendings of Account x8949'/>
 
-          <SpendingCard name='Current FICO Score: 550'/>
-          <SpendingCard name='Current fico Score: 550'/>
-          <SpendingCard name='Current fico Score: 550'/>
-
-          <SpendingCard name='Current fico Score: 550'/>
-          <SpendingCard name='Current FICO Score: 550'/>
-          <SpendingCard name='Current fico Score: 550'/>
+          <SpendingCard tip='Credit Balance for Card Ending in 4921'/>
+          <SpendingCard tip='Credit Balance for Card Ending in 8429'/>
+          
+          <SpendingCard tip='Credit Balance for Card Ending in 1094'/>
+          <SpendingCard tip='Credit Balance for Card Ending in 2391'/>
         </div>
       </div>
     </div>
