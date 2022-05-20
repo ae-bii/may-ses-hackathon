@@ -63,7 +63,9 @@ const Input = () => {
 		<div className='input'>
 			{showEnd ? (
 				<div className='score-section'>
-					Thank you for completing the questionaire!
+					<div className='question-text'>
+						Thank you for completing the questionaire!
+					</div>
 					<button className='continue' onClick={onSubmit}>Continue</button>
 				</div>
 			) : (

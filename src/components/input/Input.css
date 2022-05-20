@@ -57,7 +57,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .continue {
@@ -88,11 +88,10 @@
   
   .answer {
     width: 100%;
-    font-size: 12px;
+    font-size: 32px;
     color: #ffffff;
     background-color: #252d4a;
     border-radius: 15px;
-    display: flex;
     padding: 5px;
     justify-content: flex-start;
     align-items: center;
