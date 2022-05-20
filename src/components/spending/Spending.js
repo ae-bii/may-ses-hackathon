@@ -28,19 +28,22 @@ const Spending = () => {
           <div className='venture'>
             <img className="creditCard" src={require('./ventureCard.jpeg')} />
             <img className='bar' src={require('./lowBar.png')}/>
-            <p className='percentText'>You're at 15% of your total usage😃</p>
+            <p className='percentText'>You're at 15% of your total usage 😃</p>
+            <p className='percentText'>Current expected change: +3 FICO points ✅</p>
           </div>
           
           <div className='venture'>
             <img className="creditCard" src={require('./savor.jpg')} />
             <img className='bar' src={require('./lowBar.png')}/>
-            <p className='percentText'>You're at 15% of your total usage😃</p>
+            <p className='percentText'>You're at 15% of your total usage 😃</p>
+            <p className='percentText'>Current expected change: +3 FICO points ✅</p>
           </div>
          
          <div className='venture'>
             <img className="creditCard" src={require('./quicksilver.jpeg')} />
             <img className='bar' src={require('./highBar.png')}/>
-            <p className='percentText'>You're at 75% of your total usage😢</p>
+            <p className='percentText'>You're at 75% of your total usage 😢</p>
+            <p className='percentText'>Current expected change: -5 FICO points ❌</p>
          </div>
 
         </div>
