@@ -24,7 +24,7 @@ const Spending = () => {
 
         <br/>
         
-        <div className='all-card-rows'>
+        <div className='all-card-rows' style={{paddingBottom:'50px'}}>
           <div className='venture'>
             <img className="creditCard" src={require('./ventureCard.jpeg')} />
             <img className='bar' src={require('./lowBar.png')}/>
@@ -43,11 +43,6 @@ const Spending = () => {
             <p className='percentText'>You're at 75% of your total usage😢</p>
          </div>
 
-          {/* <SpendingCard tip='Credit Balance for Card Ending in 4921'/>
-          <SpendingCard tip='Credit Balance for Card Ending in 8429'/>
-          
-          <SpendingCard tip='Credit Balance for Card Ending in 1094'/>
-          <SpendingCard tip='Credit Balance for Card Ending in 2391'/> */}
         </div>
       </div>
     </div>

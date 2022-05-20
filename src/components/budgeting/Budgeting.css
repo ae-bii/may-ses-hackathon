@@ -3,6 +3,6 @@
 	padding: 20px;
 }
 
-h3 {
-    color: blue;
+.budgeting-title {
+	padding-left: none;
 }
