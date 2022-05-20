@@ -10,8 +10,8 @@ const Input = () => {
 		{
 			questionText: 'What is your income bracket?',
 			answerOptions: [
-				{ answerText: 'Something'},
-				{ answerText: 'Another thing'},
+				{ answerText: 'Under $20k'},
+				{ answerText: '$20k-$40k'},
 				{ answerText: 'Something else'},
 				{ answerText: 'One more thing'},
 			],
@@ -21,8 +21,17 @@ const Input = () => {
 			answerOptions: [
 				{ answerText: 'Groceries'},
 				{ answerText: 'Online Shopping'},
-				{ answerText: 'Something else'},
-				{ answerText: 'One more thing'},
+				{ answerText: 'Travel'},
+				{ answerText: 'Restaurants'},
+			],
+		},
+		{
+			questionText: 'What is your top budgeting category?',
+			answerOptions: [
+				{ answerText: 'Groceries'},
+				{ answerText: 'Online Shopping'},
+				{ answerText: 'Travel'},
+				{ answerText: 'Restaurants'},
 			],
 		},
 		{
@@ -31,15 +40,6 @@ const Input = () => {
 				{ answerText: 'Urban'},
 				{ answerText: 'Suburban'},
 				{ answerText: 'Rural'},
-			],
-		},
-		{
-			questionText: 'What is your top spending category?',
-			answerOptions: [
-				{ answerText: 'Groceries'},
-				{ answerText: 'Online Shopping'},
-				{ answerText: 'Something else'},
-				{ answerText: 'One more thing'},
 			],
 		},
 		{
