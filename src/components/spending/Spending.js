@@ -40,8 +40,4 @@ const Spending = () => {
         <FicoCard name='Current FICO Score: 550'/> */}
       </div>
 
-    </div>
-	)
-}
-
 export default Spending

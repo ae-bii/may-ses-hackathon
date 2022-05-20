@@ -1,8 +1,12 @@
 import React from 'react'
+import Header from '../header/Header'
 
 const Budgeting = () => {
 	return (
-		<div>Budgeting</div>
+		<div>
+			<Header/>
+			Budgeting
+		</div>
 	)
 }
 
