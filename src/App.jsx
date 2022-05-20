@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css"
+import Input from './input/Input'
 
 class App extends Component {
     constructor(){
@@ -68,7 +69,7 @@ class App extends Component {
                             />
 
                             {/* <input type='submit' className='btn btn-danger btn-block' value='Submit'/> */}
-                            <Link to="/input">Submit</Link>
+                            <Link to="/input" className='btn btn-danger btn-block'>Submit</Link>
                         </form>
                     </div>
                 </div>
