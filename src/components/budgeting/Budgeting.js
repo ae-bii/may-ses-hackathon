@@ -23,12 +23,17 @@ const Budgeting = () => {
 				<h1 className='budgeting-title'>Budgeting</h1>
 				</div>
 					<div className='budgetCards'>
-						<Charts/>
+						<div className='chart'>
+							<Charts/>
+						</div>
+
+						<spacer/>
 
 						<BudgetingCard1 />
 						<BudgetingCard2 />
 						<BudgetingCard3 />
 						<BudgetingCard4 />
+
 					</div>
 			</div>
 		</div>

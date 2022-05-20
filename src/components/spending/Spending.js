@@ -24,30 +24,28 @@ const Spending = () => {
 
         <br/>
         
-        <div className='all-card-rows'>
+        <div className='all-card-rows' style={{paddingBottom:'50px'}}>
           <div className='venture'>
             <img className="creditCard" src={require('./ventureCard.jpeg')} />
             <img className='bar' src={require('./lowBar.png')}/>
-            <p className='percentText'>You're at 15% of your total usage😃</p>
+            <p className='percentText'>You're at 15% of your total usage 😃</p>
+            <p className='percentText'>Current expected change: +3 FICO points ✅</p>
           </div>
           
           <div className='venture'>
             <img className="creditCard" src={require('./savor.jpg')} />
             <img className='bar' src={require('./lowBar.png')}/>
-            <p className='percentText'>You're at 15% of your total usage😃</p>
+            <p className='percentText'>You're at 15% of your total usage 😃</p>
+            <p className='percentText'>Current expected change: +3 FICO points ✅</p>
           </div>
          
          <div className='venture'>
             <img className="creditCard" src={require('./quicksilver.jpeg')} />
             <img className='bar' src={require('./highBar.png')}/>
-            <p className='percentText'>You're at 75% of your total usage😢</p>
+            <p className='percentText'>You're at 75% of your total usage 😢</p>
+            <p className='percentText'>Current expected change: -5 FICO points ❌</p>
          </div>
 
-          {/* <SpendingCard tip='Credit Balance for Card Ending in 4921'/>
-          <SpendingCard tip='Credit Balance for Card Ending in 8429'/>
-          
-          <SpendingCard tip='Credit Balance for Card Ending in 1094'/>
-          <SpendingCard tip='Credit Balance for Card Ending in 2391'/> */}
         </div>
       </div>
     </div>

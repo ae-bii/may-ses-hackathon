@@ -6,13 +6,13 @@
 	margin-top: 800px;
 	height: 300px;
 	width: 300px;
+
 	display: flex;
     flex-wrap: wrap;
 	background-color: #00487950;
 }
 
 .budgeting-title {
-	margin-left: 20px;
 	font-size: 60px;
 	text-align: left;
 	padding-left: 50px;
