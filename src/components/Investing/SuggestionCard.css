@@ -7,7 +7,7 @@
 	margin: 15px;
 	width: 300px;
 	height: 200px;
-  padding-left: 10px;
+  padding: 10px;
 
 	background-color: #00487950;
 	font-size: 80%;
@@ -44,6 +44,6 @@
 	font-size: 15px;
 	height: 30px;
 	padding-right: 20px;
-  line-height: 10px;
+  line-height: 8px;
   padding-top: 2px;
 }
