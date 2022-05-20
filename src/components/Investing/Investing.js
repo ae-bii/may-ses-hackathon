@@ -3,6 +3,7 @@ import ReactSlider from 'react-slider'
 import SuggestionCard from './SuggestionCard'
 import './Investing.css'
 import Header from '../header/Header'
+import Slider from './Slider'
 
 const Investing = () => {
 	return (
@@ -13,7 +14,7 @@ const Investing = () => {
 				<div className='filter-container'>
 					<h5>Filters</h5>
 
-					<ReactSlider
+					<Slider
 						className="horizontal-slider"
 						thumbClassName="example-thumb"
 						trackClassName="example-track"
