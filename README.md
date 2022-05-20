@@ -1,6 +1,8 @@
 # Financial Lingo
 
-Room 26's submission for the May 2022 Capital One Software Engineering Summit! Take a look here: https://may-ses-hackathon.aebii.repl.co/
+Room 26's submission for the May 2022 Capital One Software Engineering Summit! 
+
+Take a look here: https://may-ses-hackathon.aebii.repl.co/
 
 
 
@@ -18,7 +20,7 @@ We created an intuitive beginner-friendly website that recommends to customers w
 
 This website improves financial literacy and forming of good lifelong financial habits, personalized for each customer based on their current knowledge, financial resources, and their demographics.
 
-## Our website focuses
+## Our Website Focuses
 
 ### Spending
 
