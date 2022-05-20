@@ -19,6 +19,7 @@
     display: flex;
     font-size: 70px;
     align-items: center;
+    color: #ffffff;
   }
   
   /* QUESTION/TIMER/LEFT SECTION */
@@ -37,6 +38,7 @@
   
   .question-text {
     font-size: 70px;
+    color: #ffffff;
     margin-bottom: 12px;
   }
   
@@ -68,16 +70,8 @@
     padding: 5px;
     justify-content: flex-start;
     align-items: center;
-    border: 5px solid #234668;
+    border: 5px solid #004977;
     cursor: pointer;
-  }
-  
-  .correct {
-    background-color: #2f922f;
-  }
-  
-  .incorrect {
-    background-color: #ff3333;
   }
   
   button:hover {

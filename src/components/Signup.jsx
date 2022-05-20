@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css"
+import { Link } from 'react-router-dom'
 import axios from 'axios'
 
 class Signup extends Component {
@@ -95,7 +96,8 @@ class Signup extends Component {
                             className='form-control form-group'
                             />
 
-                            <input type='submit' className='btn btn-danger btn-block' value='Submit'/>
+                            {/* <input type='submit' className='btn btn-danger btn-block' value='Submit'/> */}
+                            <Link to="/input" className='btn btn-danger btn-block'>Submit</Link>
                         </form>
                     </div>
                 </div>
